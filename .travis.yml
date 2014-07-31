@@ -5,7 +5,7 @@ python:
   - 3.3
   - pypy
 install:
-  - pip install --use-mirrors requests nose coveralls
+  - pip install --use-mirrors nose coveralls
 
 before_script:
   - npm install karma karma-jasmine karma-phantomjs-launcher karma-coverage
