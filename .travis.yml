@@ -7,11 +7,11 @@ install:
   - pip install --use-mirrors nose coveralls
 
   # Install JS dependancies
-  - npm install karma karma-jasmine karma-phantomjs-launcher karma-coverage
+  - npm install karma karma-jasmine karma-phantomjs-launcher karma-coverage coveralls
 
 script:
   # Run Python tests then send output to coveralls
   - nosetests && coveralls
 
   # Run Karma tests then send output to coveralls
-  - ./node_modules/karma/bin/karma start --single-run --browsers PhantomJS test/karma.conf.js && npm run coveralls
+  - ./node_modules/karma/bin/karma start --single-run --browsers PhantomJS test/karma.conf.js | ./node_modules/coveralls/bin/coveralls.js
