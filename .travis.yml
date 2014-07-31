@@ -1,0 +1,19 @@
+language: python
+python:
+  - 2.6
+  - 2.7
+  - 3.3
+  - pypy
+install:
+  - pip install --use-mirrors requests nose coveralls
+
+before_script:
+  - npm install karma karma-jasmine karma-phantomjs-launcher karma-coverage
+
+script:
+  - nosetests
+  - ./node_modules/karma/bin/karma start --single-run --browsers PhantomJS test/karma.conf.js
+
+after_success:
+  - coveralls
+  - npm run coveralls
