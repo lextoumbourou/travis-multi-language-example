@@ -1,6 +1,2 @@
-def first_test():
-    return 'Hello World'
-
-
-def second_test():
+def hello_world_printer():
     return 'Hello World'
