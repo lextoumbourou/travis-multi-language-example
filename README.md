@@ -12,8 +12,8 @@ The test was developed after reading these and other discussions:
 
 ## Learnings
 
-* Travis can be configured to test multiple languages
-* Travis will only support one "main" language, which can use features like [multiple build environments](http://docs.travis-ci.com/user/languages/python/). The other language will just simply run the test runner. *Note: if you do use multiple build environments, the secondary language's test runner will get run once for each "main" language environment. Eg: karma will run once for the Python 2.7 tests and again for the Python 3.2 tests*
+* Travis can be configured to test multiple languages.
+* Travis will only support one "main" language, which can use features like [multiple build environments](http://docs.travis-ci.com/user/languages/python/). The other language will just simply run the test runner. *Note: if you do use multiple build environments, the secondary language's test runner will get run once for each "main" language environment. Eg: karma will run once for the Python 2.7 tests and again for the Python 3.2 tests*.
 * At the time of writing, Coveralls does not support coverage reports for multi languages. If you send a Python coverage report followed by a JavaScript, the JS one will "overwrite" the Python one.
 
 ### License
