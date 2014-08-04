@@ -14,4 +14,4 @@ script:
   - nosetests && coveralls
 
   # Run JS tests (using Jasmine + Karma) then send output to coveralls
-  - ./node_modules/karma/bin/karma start --single-run --browsers PhantomJS test/karma.conf.js && cat ./coverage/PhantomJS*/lcov.info | ./node_modules/coveralls/bin/coveralls.js
+  - ./node_modules/karma/bin/karma start --single-run --browsers PhantomJS test/js/karma.conf.js && cat ./coverage/PhantomJS*/lcov.info | ./node_modules/coveralls/bin/coveralls.js
