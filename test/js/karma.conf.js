@@ -16,7 +16,7 @@ module.exports = function(config) {
     browsers: ['PhantomJS'],
     singleRun: false,
     coverageReporter: {
-      type : 'lcovonly'
+      type : 'text'
     }
   });
 };
