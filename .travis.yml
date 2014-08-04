@@ -13,5 +13,5 @@ script:
   # Run Python tests then send output to coveralls
   - nosetests && coveralls
 
-  # Run JS tests (using Jasmine + Karma) then send output to coveralls
+  # Run JS tests (using Jasmine + Karma)
   - ./node_modules/karma/bin/karma start --single-run --browsers PhantomJS test/js/karma.conf.js
