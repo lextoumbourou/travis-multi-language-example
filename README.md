@@ -3,8 +3,6 @@
 [![Build Status](https://travis-ci.org/lextoumbourou/travis-multi-language-example.svg?branch=master)](https://travis-ci.org/lextoumbourou/travis-multi-language-example)
 [![Coverage Status](https://coveralls.io/repos/lextoumbourou/travis-multi-language-example/badge.png?branch=master)](https://coveralls.io/r/lextoumbourou/travis-multi-language-example?branch=master)
 
-https://travis-ci.org/lextoumbourou/travis-multi-language-example.svg
-
 An example of using multiple languages (Python & JavaScript) with Travis & Coveralls 
 
 ## Overview
