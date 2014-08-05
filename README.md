@@ -5,7 +5,7 @@
 
 https://travis-ci.org/lextoumbourou/travis-multi-language-example.svg
 
-A multi language (Python + JavaScript) example repo utilising Travis & Coveralls. 
+An example of using multiple languages (Python & JavaScript) with Travis & Coveralls 
 
 ## Overview
 
